@@ -1,4 +1,3 @@
--- Printing gift verses --
 gifts =	{
 	"a Partridge in a Pear Tree",		"Two Turtle Doves",
 	"Three French Hens",			"Four Calling Birds",
