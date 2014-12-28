@@ -32,10 +32,10 @@ for i = num, 1, -1 do
 	print("-----------------------");
 end
 
-print("\nOn the " .. numbers[1] .. " day you recieved " .. presentsPerDay[1] .. " present.");
+print("\nOn the " .. numbers[1] .. " day you received " .. presentsPerDay[1] .. " present.");
 j = 1;
-for i = 2, num, 1 do print("On the " .. numbers[i] .. " day you recieved " .. presentsPerDay[i] + j .. " presents.");j = j + presentsPerDay[i]; end
-print("You recieved " .. presents .. " presents over " .. num .. " days.\n");
+for i = 2, num, 1 do print("On the " .. numbers[i] .. " day you received " .. presentsPerDay[i] + j .. " presents.");j = j + presentsPerDay[i]; end
+print("You received " .. presents .. " presents over " .. num .. " days.\n");
 --[[
 Example Output:
 	>IN: 3
@@ -57,8 +57,8 @@ Example Output:
 	a Partridge in a Pear Tree
 	-----------------------
 	
-	On the first day you recieved 1 present.
-	On the second day you recieved 3 presents.
-	On the third day you recieved 6 presents.
+	On the first day you received 1 present.
+	On the second day you received 3 presents.
+	On the third day you received 6 presents.
 	You recieved 10 presents over 3 days.
 --]]
