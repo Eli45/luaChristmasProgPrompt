@@ -42,3 +42,29 @@ print("\nOn the " .. numbers[1] .. " day you recieved " .. presentsPerDay[1] .. 
 j = 1;
 for i = 2, num, 1 do print("On the " .. numbers[i] .. " day you recieved " .. presentsPerDay[i] + j .. " presents.");j = j + presentsPerDay[i]; end
 print("You recieved " .. presents .. " presents over " .. num .. " days.\n");
+--[[
+Example Output:
+	>IN: 3
+	<OUT: On the third day of Christmas
+        my true love sent to me
+	Three French Hens,
+	Two Turtle Doves,
+	and
+	a Partridge in a Pear Tree
+	-----------------------
+	On the second day of Christmas
+	my true love sent to me
+	Two Turtle Doves,
+	and
+	a Partridge in a Pear Tree
+	-----------------------
+	On the first day of Christmas
+	my true love sent to me
+	a Partridge in a Pear Tree
+	-----------------------
+	
+	On the first day you recieved 1 present.
+	On the second day you recieved 3 presents.
+	On the third day you recieved 6 presents.
+	You recieved 10 presents over 3 days.
+--]]
