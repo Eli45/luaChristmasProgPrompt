@@ -27,15 +27,9 @@ end
 print("What day of Christmas is it?");
 num = tonumber(io.read());
 
-if num == 1 then
-	print(gifts[1]);
-elseif num == 2 then
-	print(gifts[2] .. "\nand\n" .. gifts[1]);
-else
-	for i = num, 1, -1 do
-		printPresents(i);
-		print("-----------------------");
-	end
+for i = num, 1, -1 do
+	printPresents(i);
+	print("-----------------------");
 end
 
 print("\nOn the " .. numbers[1] .. " day you recieved " .. presentsPerDay[1] .. " present.");
