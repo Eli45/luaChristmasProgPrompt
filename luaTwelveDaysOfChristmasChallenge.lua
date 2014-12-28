@@ -1,5 +1,5 @@
 gifts =	{
-	"a Partridge in a Pear Tree",		"Two Turtle Doves",
+	"A Partridge in a Pear Tree",		"Two Turtle Doves",
 	"Three French Hens",			"Four Calling Birds",
 	"Five Gold Rings",			"Six Geese-a-Laying",
 	"Seven Swans-a-Swimming",		"Eight Maids-a-Milking",
@@ -44,17 +44,17 @@ Example Output:
 	Three French Hens,
 	Two Turtle Doves,
 	and
-	a Partridge in a Pear Tree
+	A Partridge in a Pear Tree
 	-----------------------
 	On the second day of Christmas
 	my true love sent to me
 	Two Turtle Doves,
 	and
-	a Partridge in a Pear Tree
+	A Partridge in a Pear Tree
 	-----------------------
 	On the first day of Christmas
 	my true love sent to me
-	a Partridge in a Pear Tree
+	A Partridge in a Pear Tree
 	-----------------------
 	
 	On the first day you received 1 present.
